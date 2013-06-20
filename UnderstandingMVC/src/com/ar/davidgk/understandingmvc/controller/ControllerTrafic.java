@@ -33,7 +33,6 @@ public class ControllerTrafic {
 		for (AbstractVehiculo vehiculo : listaObservadores) {
 			vehiculo.updateMiComportamiento(semaforo.getEstado());
 		}
-		
 	}
 	
 }

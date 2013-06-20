@@ -15,7 +15,6 @@ public class MVCPatternTest {
 
 	@Test
 	public void mvcPatternTest(){
-		
 		/**Creamos el controlador 
 		 que regulara el flujo y permitira que:
 		 1.- La vista se actualize a los cambios del modelo
@@ -47,18 +46,13 @@ public class MVCPatternTest {
 		System.out.println("***********************");
 		System.out.println("Semaforo en ROJO");
 		sem.setEstado(SEMAFORO_ESTADOS.ROJO);
-		
-
 		System.out.println("***********************");
 		System.out.println("Semaforo en AMARILLO");
-		sem.setEstado(SEMAFORO_ESTADOS.AMARILLO);
-		
-	
+		sem.setEstado(SEMAFORO_ESTADOS.AMARILLO);	
 		System.out.println("***********************");
 		System.out.println("Semaforo en VERDE");
 		sem.setEstado(SEMAFORO_ESTADOS.VERDE);
-		System.out.println("***********************");
-		
+		System.out.println("***********************");		
 	}
 	
 }
